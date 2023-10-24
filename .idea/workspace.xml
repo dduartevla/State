@@ -4,13 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27ceb599-f0cf-450f-8371-3e069a4ba5ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="27ceb599-f0cf-450f-8371-3e069a4ba5ea" name="Changes" comment="Faz a classe BancadaEstado">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bancada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bancada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BancadaEstado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BancadaEstado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BancadaEstadoPlantioRecente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BancadaEstadoPlantioRecente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BancadaEstadoVazia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BancadaEstadoVazia.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,6 +44,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -44,8 +59,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698184587199</updated>
-      <workItem from="1698184588723" duration="25000" />
+      <workItem from="1698184588723" duration="1969000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit Inicial">
+      <option name="closed" value="true" />
+      <created>1698185655621</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698185655621</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Faz a classe BancadaEstado">
+      <option name="closed" value="true" />
+      <created>1698186025426</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698186025426</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit Inicial" />
+    <MESSAGE value="Faz a classe BancadaEstado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Faz a classe BancadaEstado" />
   </component>
 </project>

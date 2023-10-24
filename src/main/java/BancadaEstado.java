@@ -18,6 +18,10 @@ public abstract class BancadaEstado {
         return false;
     }
 
+    public boolean bancadaProntaParaColheita(Bancada bancada){
+        return false;
+    }
+
     public boolean bancadaColhida(Bancada bancada){
         return false;
     }
