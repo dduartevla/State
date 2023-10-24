@@ -13,7 +13,7 @@ public class BancadaEstadoPlantioRecente extends BancadaEstado{
         return "Plantio Recente";
     }
 
-    public boolean bancadaNaoConformidade(Bancada bancada){
+    public boolean bancadaEmNaoConformidade(Bancada bancada){
         bancada.setEstado(BancadaEstadoNaoConformidade.getInstance());
         return true;
     }

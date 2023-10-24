@@ -13,8 +13,13 @@ public class BancadaEstadoProntaParaColheita extends BancadaEstado{
         return "Pronto para Colheita";
     }
 
-    public boolean bancadaEstadoColhida(Bancada bancada){
+    public boolean bancadaColhida(Bancada bancada){
         bancada.setEstado(BancadaEstadoColhida.getInstance());
+        return true;
+    }
+
+    public boolean bancadaEmNaoConformidade(Bancada bancada){
+        bancada.setEstado(BancadaEstadoNaoConformidade.getInstance());
         return true;
     }
 }

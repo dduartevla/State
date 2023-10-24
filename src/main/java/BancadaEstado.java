@@ -14,7 +14,7 @@ public abstract class BancadaEstado {
         return false;
     }
 
-    public boolean bancadaDescartada(Bancada bancada){
+    public boolean bancadaEstadoDescartada(Bancada bancada){
         return false;
     }
 

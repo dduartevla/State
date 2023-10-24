@@ -12,4 +12,9 @@ public class BancadaEstadoColhida extends BancadaEstado{
     public String getEstado() {
         return "Colhida";
     }
+
+    public boolean bancadaVazia(Bancada bancada){
+        bancada.setEstado(BancadaEstadoVazia.getInstance());
+        return true;
+    }
 }

@@ -16,12 +16,12 @@ public class Bancada {
         return estado.bancadaPlantioRecente(this);
     }
 
-    public boolean bancadaEstadoNaoConformidade(){
+    public boolean bancadaEmNaoConformidade(){
         return estado.bancadaEmNaoConformidade(this);
     }
 
     public boolean bancadaEstadoDescartada(){
-        return estado.bancadaDescartada(this);
+        return estado.bancadaEstadoDescartada(this);
     }
 
     public boolean bancadaEstadoProntoParaColheita(){

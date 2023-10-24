@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27ceb599-f0cf-450f-8371-3e069a4ba5ea" name="Changes" comment="Faz a classe BancadaEstado">
+    <list default="true" id="27ceb599-f0cf-450f-8371-3e069a4ba5ea" name="Changes" comment="Faz os estados">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BancadaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Bancada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bancada.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BancadaEstado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BancadaEstado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BancadaEstadoColhida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BancadaEstadoColhida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BancadaEstadoDescartada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BancadaEstadoDescartada.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BancadaEstadoPlantioRecente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BancadaEstadoPlantioRecente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BancadaEstadoVazia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BancadaEstadoVazia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BancadaEstadoProntaParaColheita.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BancadaEstadoProntaParaColheita.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -43,6 +48,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -51,6 +58,75 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BancadaTest.bancadaDescartadaNaoFicaProntaParaColheita">
+    <configuration name="BancadaTest.bancadaColhidaFicaVazia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="State" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BancadaTest" />
+      <option name="METHOD_NAME" value="bancadaColhidaFicaVazia" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BancadaTest.bancadaDescartadaFicaVazia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="State" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BancadaTest" />
+      <option name="METHOD_NAME" value="bancadaDescartadaFicaVazia" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BancadaTest.bancadaDescartadaNaoFicaProntaParaColheita" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="State" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BancadaTest" />
+      <option name="METHOD_NAME" value="bancadaDescartadaNaoFicaProntaParaColheita" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BancadaTest.bancadaProntaParaColheitaEntraEmNaoConformidade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="State" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BancadaTest" />
+      <option name="METHOD_NAME" value="bancadaProntaParaColheitaEntraEmNaoConformidade" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BancadaTest.deveColherBancadaProntaParaColheita" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="State" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BancadaTest" />
+      <option name="METHOD_NAME" value="deveColherBancadaProntaParaColheita" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BancadaTest.bancadaDescartadaNaoFicaProntaParaColheita" />
+        <item itemvalue="JUnit.BancadaTest.bancadaColhidaFicaVazia" />
+        <item itemvalue="JUnit.BancadaTest.bancadaDescartadaFicaVazia" />
+        <item itemvalue="JUnit.BancadaTest.bancadaProntaParaColheitaEntraEmNaoConformidade" />
+        <item itemvalue="JUnit.BancadaTest.deveColherBancadaProntaParaColheita" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,7 +135,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698184587199</updated>
-      <workItem from="1698184588723" duration="1969000" />
+      <workItem from="1698184588723" duration="5649000" />
     </task>
     <task id="LOCAL-00001" summary="Commit Inicial">
       <option name="closed" value="true" />
@@ -77,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698186025426</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Faz os estados">
+      <option name="closed" value="true" />
+      <created>1698187408861</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698187408861</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +170,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit Inicial" />
     <MESSAGE value="Faz a classe BancadaEstado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Faz a classe BancadaEstado" />
+    <MESSAGE value="Faz os estados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Faz os estados" />
   </component>
 </project>
