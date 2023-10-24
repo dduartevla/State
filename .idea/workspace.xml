@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27ceb599-f0cf-450f-8371-3e069a4ba5ea" name="Changes" comment="Faz os estados">
-      <change afterPath="$PROJECT_DIR$/src/test/java/BancadaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Bancada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bancada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BancadaEstado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BancadaEstado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BancadaEstadoColhida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BancadaEstadoColhida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BancadaEstadoDescartada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BancadaEstadoDescartada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BancadaEstadoPlantioRecente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BancadaEstadoPlantioRecente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BancadaEstadoProntaParaColheita.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BancadaEstadoProntaParaColheita.java" afterDir="false" />
-    </list>
+    <list default="true" id="27ceb599-f0cf-450f-8371-3e069a4ba5ea" name="Changes" comment="Faz os testes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,7 +125,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698184587199</updated>
-      <workItem from="1698184588723" duration="5649000" />
+      <workItem from="1698184588723" duration="5952000" />
     </task>
     <task id="LOCAL-00001" summary="Commit Inicial">
       <option name="closed" value="true" />
@@ -161,16 +151,36 @@
       <option name="project" value="LOCAL" />
       <updated>1698187408861</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Faz os testes">
+      <option name="closed" value="true" />
+      <created>1698190831983</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698190831983</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit Inicial" />
     <MESSAGE value="Faz a classe BancadaEstado" />
     <MESSAGE value="Faz os estados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Faz os estados" />
+    <MESSAGE value="Faz os testes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Faz os testes" />
   </component>
 </project>
